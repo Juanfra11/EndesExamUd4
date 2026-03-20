@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+/** Esta es la clase que esta extendida con Alumno**/
 
 public class GestorMatriculas{
 
@@ -7,7 +8,7 @@ public class GestorMatriculas{
     protected GestorMatriculas() {
         matriculas = new ArrayList<>();
     }
-
+    /** Aqui he puesto el protected**/
     protected void crearMatricula(Alumno a, Asignatura as, Profesor p, double nota) {
 
         if (nota < 0) {

@@ -1,12 +1,12 @@
 import java.util.ArrayList;
-
+/** Aqui he extendido de la clase asignatura**/
 public class Curso extends Asignatura{
-
+    /** Aqui he puesto atributos en protected**/
     protected String nombre;
     protected ArrayList<Alumno> alumnos;
     protected ArrayList<Asignatura> asignaturas;
     protected ArrayList<Profesor> profesores;
-
+    /** Aqui he puesto el protected y he hecho un super**/
     protected Curso(String nombre) {
         super(nombre);
         this.nombre = nombre;

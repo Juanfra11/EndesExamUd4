@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+/** Aqui he extendido de la clase GestorMatriculas**/
 
 public class Alumno extends GestorMatriculas{
-
+    /** Aqui he puesto atributos en protected**/
     protected String nombre;
     protected int edad;
     protected ArrayList<Matricula> matriculas;
-
+    /** Aqui he puesto en el constructor protected**/
     protected Alumno(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
