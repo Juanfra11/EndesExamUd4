@@ -2,12 +2,12 @@ import java.util.ArrayList;
 
 public class Curso extends Asignatura{
 
-    public String nombre;
-    public ArrayList<Alumno> alumnos;
-    public ArrayList<Asignatura> asignaturas;
-    public ArrayList<Profesor> profesores;
+    protected String nombre;
+    protected ArrayList<Alumno> alumnos;
+    protected ArrayList<Asignatura> asignaturas;
+    protected ArrayList<Profesor> profesores;
 
-    public Curso(String nombre) {
+    protected Curso(String nombre) {
         super(nombre);
         this.nombre = nombre;
         alumnos = new ArrayList<>();

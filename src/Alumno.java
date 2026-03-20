@@ -2,11 +2,11 @@ import java.util.ArrayList;
 
 public class Alumno extends GestorMatriculas{
 
-    public String nombre;
-    public int edad;
-    public ArrayList<Matricula> matriculas;
+    protected String nombre;
+    protected int edad;
+    protected ArrayList<Matricula> matriculas;
 
-    public Alumno(String nombre, int edad) {
+    protected Alumno(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
         this.matriculas = new ArrayList<>();

@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class GestorMatriculas{
 
-    public ArrayList<Matricula> matriculas;
+    protected ArrayList<Matricula> matriculas;
 
-    public GestorMatriculas() {
+    protected GestorMatriculas() {
         matriculas = new ArrayList<>();
     }
 
-    public void crearMatricula(Alumno a, Asignatura as, Profesor p, double nota) {
+    protected void crearMatricula(Alumno a, Asignatura as, Profesor p, double nota) {
 
         if (nota < 0) {
             nota = 0;

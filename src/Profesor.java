@@ -1,9 +1,9 @@
 public class Profesor extends Matricula {
 
-    public String nombre;
-    public String especialidad;
+    protected String nombre;
+    protected String especialidad;
 
-    public Profesor(String nombre, String especialidad) {
+    protected Profesor(String nombre, String especialidad) {
         super(nombre, especialidad);
         this.nombre = nombre;
         this.especialidad = especialidad;
