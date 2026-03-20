@@ -5,4 +5,8 @@ public class Asignatura {
     public Asignatura(String nombre) {
         this.nombre = nombre;
     }
+
+    public Asignatura() {
+
+    }
 }

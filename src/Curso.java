@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Curso {
+public class Curso extends Asignatura{
 
     public String nombre;
     public ArrayList<Alumno> alumnos;
@@ -8,6 +8,7 @@ public class Curso {
     public ArrayList<Profesor> profesores;
 
     public Curso(String nombre) {
+        super(nombre);
         this.nombre = nombre;
         alumnos = new ArrayList<>();
         asignaturas = new ArrayList<>();

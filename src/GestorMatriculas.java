@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class GestorMatriculas {
+public class GestorMatriculas{
 
     public ArrayList<Matricula> matriculas;
 

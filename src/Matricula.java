@@ -1,4 +1,4 @@
-public class Matricula {
+public class Matricula{
 
     public Alumno alumno;
     public Asignatura asignatura;
@@ -10,6 +10,14 @@ public class Matricula {
         this.asignatura = asignatura;
         this.profesor = profesor;
         this.nota = nota;
+    }
+
+    public Matricula() {
+
+    }
+
+
+    public Matricula(String nombre, String especialidad) {
     }
 
     public void mostrar() {

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Alumno {
+public class Alumno extends GestorMatriculas{
 
     public String nombre;
     public int edad;
